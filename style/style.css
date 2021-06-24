@@ -1,0 +1,260 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+/* GENERAL */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', Arial, 'sans-serif';
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+div.row ul li::before {
+    content: "\2022"; 
+    color: #6c757d; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+.box-shadow {
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.36);
+}
+
+
+/* LANDING */
+
+#landing {
+    height: 70vh;
+    background-image: url("../img/landing_page.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*#landing-content img {
+    width: 20rem;
+}*/
+
+
+/* MAIN */
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* OVER ONS */
+
+
+
+
+/* CONTACT */
+
+section #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact > h1 {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-contact {
+    background-color: #F2F2F2;
+    width: 22.5rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.card-contact img {
+    width: 50px;
+}
+
+section.contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    width: 30rem;
+}
+
+.fade-out {
+    animation: status 5s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        /* pointer-events: all; */
+    }
+    90% {
+        opacity: 1;
+        /* pointer-events: all; */
+    }
+    100% {
+        opacity: 0;
+        /* pointer-events: none; */
+    }
+}
+
+
+/* IMAGE GALERY */
+
+.img-container {
+    width: 18rem;
+    height: 18rem;
+}
+
+
+.img-container:hover {
+    cursor: pointer;
+}
+
+#img-1 {
+    background-image: url('../img/slaapkamer.JPG');
+}
+
+#img-2 {
+    background-image: url('../img/living-boven.JPG');
+}
+
+#img-3 {
+    background-image: url('../img/badkamer.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/lavabo.jpg');
+}
+
+#img-5 {
+    background-image: url('../img/living-beneden.jpg');
+}
+
+#img-6 {
+    background-image: url('../img/slaapkamer-beneden.jpg');
+}
+
+#img-7 {
+    background-image: url('../img/keuken.jpg');
+}
+
+#img-8 {
+    background-image: url('../img/badkamer-beneden.JPG');
+}
+
+#img-9 {
+    background-image: url('../img/tuin.jpg');
+}
+
+#img-10 {
+    background-image: url('../img/ontbijt1.JPG');
+}
+
+#img-11 {
+    background-image: url('../img/ontbijt2.JPG');
+}
+
+#img-12 {
+    background-image: url('../img/ontbijt3.JPG');
+}
+
+#img-13 {
+    background-image: url('../img/toren.jpg');
+}
+
+#img-14 {
+    background-image: url('../img/strand.jpg');
+}
+
+#img-15 {
+    background-image: url('../img/sloot.jpg');
+}
+
+#img-16 {
+    background-image: url('../img/2cv.jpg');
+}
+
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12, #img-13, #img-14, #img-15, #img-16 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 15.625rem;
+}
+
+footer p {
+    margin-top: 1rem;
+}
+
+
+/* CAROUSEL */
+
+
+
+
+/* ANIMATIONS */
+
