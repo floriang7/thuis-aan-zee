@@ -133,15 +133,12 @@ section.contact-form form {
 @keyframes status {
     0% {
         opacity: 1;
-        /* pointer-events: all; */
     }
     90% {
         opacity: 1;
-        /* pointer-events: all; */
     }
     100% {
         opacity: 0;
-        /* pointer-events: none; */
     }
 }
 
@@ -167,23 +164,23 @@ section.contact-form form {
 }
 
 #img-3 {
-    background-image: url('../img/badkamer.jpg');
+    background-image: url('../img/badkamer.JPG');
 }
 
 #img-4 {
-    background-image: url('../img/lavabo.jpg');
+    background-image: url('../img/lavabo.JPG');
 }
 
 #img-5 {
-    background-image: url('../img/living-beneden.jpg');
+    background-image: url('../img/living-beneden.JPG');
 }
 
 #img-6 {
-    background-image: url('../img/slaapkamer-beneden.jpg');
+    background-image: url('../img/slaapkamer-beneden.JPG');
 }
 
 #img-7 {
-    background-image: url('../img/keuken.jpg');
+    background-image: url('../img/keuken.JPG');
 }
 
 #img-8 {
@@ -191,7 +188,7 @@ section.contact-form form {
 }
 
 #img-9 {
-    background-image: url('../img/tuin.jpg');
+    background-image: url('../img/tuin.JPG');
 }
 
 #img-10 {
