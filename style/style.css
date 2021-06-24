@@ -151,9 +151,9 @@ section.contact-form form {
 }
 
 
-.img-container:hover {
+/* .img-container:hover {
     cursor: pointer;
-}
+} */
 
 #img-1 {
     background-image: url('../img/slaapkamer.JPG');
