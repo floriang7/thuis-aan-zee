@@ -38,96 +38,96 @@ var items = [
     }
     ,
     {
-        src: '../img/badkamer.jpg',
+        src: '../img/badkamer.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/badkamer.jpg'
+        msrc: '../img/badkamer.JPG'
     }
     ,
     {
-        src: '../img/lavabo.jpg',
+        src: '../img/lavabo.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/lavabo.jpg'
+        msrc: '../img/lavabo.JPG'
     }
     ,
     {
-        src: '../img/living-beneden.jpg',
+        src: '../img/living-beneden.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/living-beneden.jpg'
+        msrc: '../img/living-beneden.JPG'
     }
     ,
     {
-        src: '../img/slaapkamer-beneden.jpg',
+        src: '../img/slaapkamer-beneden.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/slaapkamer-beneden.jpg'
+        msrc: '../img/slaapkamer-beneden.JPG'
     }
     ,
     {
-        src: '../img/keuken.jpg',
+        src: '../img/keuken.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/keuken.jpg'
+        msrc: '../img/keuken.JPG'
     }
     ,
     {
-        src: '../img/badkamer-beneden.jpg',
+        src: '../img/badkamer-beneden.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/badkamer-beneden.jpg'
+        msrc: '../img/badkamer-beneden.JPG'
     }
     ,
     {
-        src: '../img/tuin.jpg',
+        src: '../img/tuin.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/tuin.jpg'
+        msrc: '../img/tuin.JPG'
     }
     ,
     {
-        src: '../img/ontbijt1.jpg',
+        src: '../img/ontbijt1.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/ontbijt1.jpg'
+        msrc: '../img/ontbijt1.JPG'
     }
     ,
     {
-        src: '../img/ontbijt2.jpg',
+        src: '../img/ontbijt2.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/ontbijt2.jpg'
+        msrc: '../img/ontbijt2.JPG'
     },
     {
-        src: '../img/ontbijt3.jpg',
+        src: '../img/ontbijt3.JPG',
         w: 1200,
         h: 900,
-        msrc: '../img/ontbijt3.jpg'
+        msrc: '../img/ontbijt3.JPG'
     },
     {
-        src: '../img/toren.JPG',
+        src: '../img/toren.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/toren.JPG'
+        msrc: '../img/toren.jpg'
     },
     {
-        src: '../img/strand.JPG',
+        src: '../img/strand.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/strand.JPG'
+        msrc: '../img/strand.jpg'
     },
     {
-        src: '../img/sloot.JPG',
+        src: '../img/sloot.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/sloot.JPG'
+        msrc: '../img/sloot.jpg'
     },
     {
-        src: '../img/2cv.JPG',
+        src: '../img/2cv.jpg',
         w: 1400,
         h: 900,
-        msrc: '../img/2cv.JPG'
+        msrc: '../img/2cv.jpg'
     }
 ];
 
