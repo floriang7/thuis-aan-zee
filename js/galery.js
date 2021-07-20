@@ -17,8 +17,10 @@ const img15 = document.querySelector('#img-15');
 const img16 = document.querySelector('#img-16');
 const img17 = document.querySelector('#img-17');
 const img18 = document.querySelector('#img-18');
+const img19 = document.querySelector('#img-19');
+const img20 = document.querySelector('#img-20');
 
-const images = [img1, img2, img3, img4, img5, img6, img17, img7, img18, img8, img9, img10, img11, img12, img13, img14, img15, img16];
+const images = [img1, img2, img3, img4, img5, img6, img17, img7, img18, img8, img9, img19, img10, img11, img12, img13, img14, img15, img16, img20];
 
 
 // Photoswipe
@@ -101,6 +103,13 @@ var items = [
     }
     ,
     {
+        src: '../img/tuinkamer.JPG',
+        w: 1200,
+        h: 900,
+        msrc: '../img/tuinkamer.JPG'
+    }
+    ,
+    {
         src: '../img/ontbijt1.JPG',
         w: 1200,
         h: 900,
@@ -142,6 +151,13 @@ var items = [
         w: 1400,
         h: 900,
         msrc: '../img/2cv.jpg'
+    }  
+    ,
+    {
+        src: '../img/zonsondergang.jpg',
+        w: 1400,
+        h: 900,
+        msrc: '../img/zonsondergang.jpg'
     }  
 ];
 
