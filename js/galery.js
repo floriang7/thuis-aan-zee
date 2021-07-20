@@ -15,8 +15,10 @@ const img13 = document.querySelector('#img-13');
 const img14 = document.querySelector('#img-14');
 const img15 = document.querySelector('#img-15');
 const img16 = document.querySelector('#img-16');
+const img17 = document.querySelector('#img-17');
+const img18 = document.querySelector('#img-18');
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16];
+const images = [img1, img2, img3, img4, img5, img6, img17, img7, img18, img8, img9, img10, img11, img12, img13, img14, img15, img16];
 
 
 // Photoswipe
@@ -63,6 +65,12 @@ var items = [
         w: 1200,
         h: 900,
         msrc: '../img/slaapkamer-beneden.JPG'
+    },
+    {
+        src: '../img/slaapkamer-2-beneden.JPG',
+        w: 1400,
+        h: 900,
+        msrc: '../img/slaapkamer-2-beneden.JPG'
     }
     ,
     {
@@ -70,6 +78,12 @@ var items = [
         w: 1200,
         h: 900,
         msrc: '../img/keuken.JPG'
+    },
+    {
+        src: '../img/keuken2.JPG',
+        w: 1400,
+        h: 900,
+        msrc: '../img/keuken2.JPG'
     }
     ,
     {
@@ -128,7 +142,7 @@ var items = [
         w: 1400,
         h: 900,
         msrc: '../img/2cv.jpg'
-    }
+    }  
 ];
 
 

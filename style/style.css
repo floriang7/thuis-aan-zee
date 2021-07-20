@@ -36,12 +36,15 @@ div.row ul li::before {
     box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.36);
 }
 
+img {
+    border-radius: 5px;
+}
 
 /* LANDING */
 
 #landing {
     height: 70vh;
-    background-image: url("../img/landing_page.JPG");
+    background-image: url("../img/landing-page.JPG");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,10 +64,6 @@ div.row ul li::before {
     justify-content: space-around;
 }
 
-/*#landing-content img {
-    width: 20rem;
-}*/
-
 
 /* MAIN */
 
@@ -73,11 +72,6 @@ main h1 {
     justify-content: center;
     align-items: center;
 }
-
-
-
-/* OVER ONS */
-
 
 
 
@@ -143,17 +137,20 @@ section.contact-form form {
 }
 
 
+
 /* IMAGE GALERY */
 
 .img-container {
-    width: 18rem;
+    width: 22rem;
     height: 18rem;
+    border-radius: 5px;
 }
 
-
-/* .img-container:hover {
+.img-container:hover {
     cursor: pointer;
-} */
+} 
+
+
 
 #img-1 {
     background-image: url('../img/slaapkamer.JPG');
@@ -219,8 +216,15 @@ section.contact-form form {
     background-image: url('../img/2cv.jpg');
 }
 
+#img-17 {
+    background-image: url('../img/slaapkamer-2-beneden.JPG');
+}
 
-#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12, #img-13, #img-14, #img-15, #img-16 {
+#img-18 {
+    background-image: url('../img/keuken2.JPG');
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12, #img-13, #img-14, #img-15, #img-16, #img-17, #img-18 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,7 +236,6 @@ section.contact-form form {
 
 footer {
     width: 100vw;
-    height: 15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,10 +243,29 @@ footer {
 }
 
 footer img {
-    width: 15.625rem;
+    width: 10.625rem;
 }
 
 footer p {
     margin-top: 1rem;
 }
 
+#footer-content {
+    display: flex;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .form-control {
+        width: 20rem;
+    }
+
+    .img-container {
+        width: 20rem;
+        height: 16rem;
+    }
+}
