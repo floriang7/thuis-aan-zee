@@ -135,7 +135,7 @@ var items = [
         msrc: '../img/toren.jpg'
     },
     {
-        src: '../images/strand.jpg',
+        src: '../img/strand.jpg',
         w: 1200,
         h: 900,
         msrc: '../img/strand.jpg'
