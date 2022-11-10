@@ -129,35 +129,35 @@ var items = [
         msrc: '../img/ontbijt3.JPG'
     },
     {
-        src: '../img/toren.JPG',
+        src: '../img/toren.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/toren.JPG'
+        msrc: '../img/toren.jpg'
     },
     {
-        src: '../img/strand.JPG',
+        src: '../images/strand.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/strand.JPG'
+        msrc: '../img/strand.jpg'
     },
     {
-        src: '../img/sloot.JPG',
+        src: '../img/sloot.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/sloot.JPG'
+        msrc: '../img/sloot.jpg'
     },
     {
-        src: '../img/2cv.JPG',
+        src: '../img/2cv.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/2cv.JPG'
+        msrc: '../img/2cv.jpg'
     }  
     ,
     {
-        src: '../img/zonsondergang.JPG',
+        src: '../img/zonsondergang.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/zonsondergang.JPG'
+        msrc: '../img/zonsondergang.jpg'
     }  
 ];
 
