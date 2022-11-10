@@ -70,7 +70,7 @@ var items = [
     },
     {
         src: '../img/slaapkamer-2-beneden.JPG',
-        w: 1400,
+        w: 1200,
         h: 900,
         msrc: '../img/slaapkamer-2-beneden.JPG'
     }
@@ -148,14 +148,14 @@ var items = [
     },
     {
         src: '../img/2cv.JPG',
-        w: 1400,
+        w: 1200,
         h: 900,
         msrc: '../img/2cv.JPG'
     }  
     ,
     {
         src: '../img/zonsondergang.JPG',
-        w: 1400,
+        w: 1200,
         h: 900,
         msrc: '../img/zonsondergang.JPG'
     }  
