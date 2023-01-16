@@ -40,6 +40,19 @@ img {
     border-radius: 5px;
 }
 
+/* NOTIFICATION */
+.notification {
+    width: 100%;
+    background-color: #EB5160;
+}
+
+.notification p {
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 14px;
+}
+
 /* LANDING */
 
 #landing {
