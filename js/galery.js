@@ -19,8 +19,13 @@ const img17 = document.querySelector('#img-17');
 const img18 = document.querySelector('#img-18');
 const img19 = document.querySelector('#img-19');
 const img20 = document.querySelector('#img-20');
+const img21 = document.querySelector('#img-21');
+const img22 = document.querySelector('#img-22');
+const img23 = document.querySelector('#img-23');
+const img24 = document.querySelector('#img-24');
+const img25 = document.querySelector('#img-25');
 
-const images = [img1, img2, img3, img4, img5, img6, img17, img7, img18, img8, img9, img19, img10, img11, img12, img13, img14, img15, img16, img20];
+const images = [img21, img1, img2, img3, img4, img5, img6, img17, img7, img18, img8, img9, img22, img23, img24, img25, img10, img11, img12, img13, img14, img15, img16, img20];
 
 
 // Photoswipe
@@ -28,6 +33,12 @@ var pswpElement = document.querySelectorAll('.pswp')[0];
 
 // Items array
 var items = [
+    {
+        src: '../img/vakantieverblijf.JPG',
+        w: 1200,
+        h: 900,
+        msrc: '../img/vakantieverblijf.JPG'
+    },
     {
         src: '../img/slaapkamer.JPG',
         w: 1200,
@@ -103,10 +114,29 @@ var items = [
     }
     ,
     {
-        src: '../img/tuinkamer.JPG',
+        src: '../img/logies-slaapkamer.jpg',
+        w: 1400,
+        h: 900,
+        msrc: '../img/logies-slaapkamer.jpg'
+    }
+    ,
+    {
+        src: '../img/logies-badkamer.jpg',
+        w: 800,
+        h: 1200,
+        msrc: '../img/logies-badkamer.jpg'
+    },
+    {
+        src: '../img/logies-living.jpg',
+        w: 1400,
+        h: 900,
+        msrc: '../img/logies-living.jpg'
+    },
+    {
+        src: '../img/logies-koffiehoek.jpg',
         w: 1200,
         h: 900,
-        msrc: '../img/tuinkamer.JPG'
+        msrc: '../img/logies-koffiehoek.jpg'
     }
     ,
     {
@@ -151,14 +181,13 @@ var items = [
         w: 1200,
         h: 900,
         msrc: '../img/2cv.jpg'
-    }  
-    ,
+    },
     {
         src: '../img/zonsondergang.jpg',
         w: 1200,
         h: 900,
         msrc: '../img/zonsondergang.jpg'
-    }  
+    }
 ];
 
 

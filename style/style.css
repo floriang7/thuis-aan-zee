@@ -56,9 +56,9 @@ img {
 /* LANDING */
 
 #landing {
-    height: 70vh;
-    background-image: url("../img/landing-page.JPG");
-    background-position: center center;
+    height: 81vh;
+    background-image: url("../img/landing-page.JPG");       
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -245,7 +245,27 @@ section.contact-form form {
     background-image: url('../img/zonsondergang.jpg');
 }
 
-#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12, #img-13, #img-14, #img-15, #img-16, #img-17, #img-18, #img-19, #img-20 {
+#img-21 {
+    background-image: url('../img/vakantieverblijf.JPG');
+}
+
+#img-22 {
+    background-image: url('../img/logies-slaapkamer.jpg');
+}
+
+#img-23 {
+    background-image: url('../img/logies-badkamer.jpg');
+}
+
+#img-24 {
+    background-image: url('../img/logies-living.jpg');
+}
+
+#img-25 {
+    background-image: url('../img/logies-koffiehoek.jpg');
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12, #img-13, #img-14, #img-15, #img-16, #img-17, #img-18, #img-19, #img-20, #img-21, #img-22, #img-23, #img-24, #img-25 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
