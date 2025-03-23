@@ -26,6 +26,7 @@ const img24 = document.querySelector("#img-24");
 const img25 = document.querySelector("#img-25");
 const img26 = document.querySelector("#img-26");
 const img27 = document.querySelector("#img-27");
+const img28 = document.querySelector("#img-28");
 
 const images = [
   img21,
@@ -53,7 +54,8 @@ const images = [
   img15,
   img16,
   img20,
-  img27
+  img27,
+  img28
 ];
 
 // Photoswipe
@@ -213,6 +215,12 @@ var items = [
   },
   {
     src: "../img/zeedijk.JPG",
+    w: 1200,
+    h: 900,
+    msrc: "../img/zeedijk.jpg",
+  },
+  {
+    src: "../img/ligging.jpg",
     w: 1200,
     h: 900,
     msrc: "../img/zeedijk.jpg",
